@@ -6,12 +6,16 @@
 * [Status](#status)
 * [Inspiration](#inspiration)
 
+
+
 ## General info
 ### What is the project about and why was it made?
 This project is simple lorem ipsum old generator
 
 ### What did I learn making this project?
 This project is simple lorem ipsum old generator
+
+
 
 ## Technologies
 Project created with:
