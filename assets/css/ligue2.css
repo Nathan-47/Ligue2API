@@ -1,0 +1,1181 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+background-color: white;
+color: black;
+font-family: 'Lato', sans-serif;
+}
+
+
+/*NAVBAR*/
+.logo{
+text-align: center;
+margin: 15px auto;
+}
+
+.nav{
+display: flex;
+justify-content: space-around;
+min-height: 10vh;
+color: #719135;
+z-index: 1;
+}
+
+.nav-links{
+display:flex;
+justify-content: space-around;
+width: 100%;
+padding-top: 15px;
+padding-bottom:15px;
+background-color:#181F49;
+margin:0px auto;
+}
+
+.nav-links li{
+list-style: none;
+text-align: center;
+}
+
+.nav-links a{
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 100px 2px;
+color: white;
+text-decoration: none;
+transition: background-size .50s;
+margin:0px;
+font-family: 'Oswald', sans-serif;
+}
+
+.nav-links a:hover{
+padding: 20px;
+background-color: white;
+transition: 0.2s;
+color: #181F49;
+}
+
+.burger{
+display: none;
+cursor: pointer;
+margin-top: 2px;
+}
+
+.burger div{
+width: 30px;
+height: 4px;
+background-color: black;
+margin: 4px;
+transition: all 0.3s ease;
+}
+
+.sticky{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + content{
+padding-top: 60px;
+}
+/*NAVBAR*/
+
+
+/*FOOTER*/
+#footer{
+background-color:white;
+height: 100%;
+}
+
+#footer .row{
+background-color: white;
+}
+
+#sponsors .row{
+width: 80%;
+text-align: center;
+margin: 5px auto;
+padding: 10px;
+background-color:white;
+}
+
+#bkt img{
+width: 100%;
+height: 100%;
+margin-bottom: 30px;
+margin-top: 20px;
+align-content: center;
+}
+
+#betclic img{
+width: 100%;
+height: 30%;
+margin: 15px auto;
+}
+
+#beinsports img{
+width: 100%;
+height: 30%;
+margin: 15px auto;
+}
+
+#fiat img{
+width: 70%;
+height: 50%;
+margin: 0px auto;
+}
+
+#laposte img{
+width: 70%;
+height: 40%;
+margin: 0px auto;
+}
+
+#uhlsport img{
+width: 80%;
+height:40%;
+margin: 0px auto;
+}
+
+#sponsors .col-sm-1{
+height: 100%;
+margin: 10px auto;
+}
+
+.sponsors-title1{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+margin-bottom: -5px;
+margin-top: 25px;
+}
+
+.sponsors-title2{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+#landing-copyright{
+background-color:white;
+width: 100%;
+padding: 6px;
+}
+
+#footer-copyright-text{
+font-family: 'Oswald', sans-serif;
+font-size: 17px;
+}
+
+#footer-row{
+width: 50%;
+margin: 50px auto;
+text-align: center;
+}
+
+#name-footer .name{
+font-family: 'Oswald', sans-serif;
+font-size: 17px;
+}
+
+#name-footer a{
+color: black;
+margin: 10px;
+}
+
+#name-footer img{
+width: 30px;
+height: 30px;
+}
+
+.border-line{
+border: 1px solid black; 
+margin: 20px auto;
+margin-bottom: 40px;
+width: 70%;
+}
+/*FOOTER*/
+
+
+/*HOME-CAROUSEL*/
+#home-carousel{
+margin: 30px auto;
+width: 80%;
+}
+
+.carousel-inner img{
+width: 100%;
+}
+
+#caption{
+background-color:#181F49;
+color: white;
+position: absolute; bottom: 0px;
+width: 100%;
+height: 30%;
+text-align: center;
+opacity: 85%;
+}
+
+#caption h3{
+position:absolute; top:50px; left:148px;
+font-family: 'Oswald', sans-serif;
+width: 100%;
+margin: 0px auto;
+text-align: left;
+}
+
+#caption p{
+text-align: left;
+position: absolute; top: 110px; left: 150px;
+width: 100%;
+margin: 0px auto;
+font-size: 18px;
+font-weight:600;
+}
+/*HOME-CAROUSEL*/
+
+
+/*NEWS-GRID*/
+.card{
+box-shadow: 0 0px 2px 0;
+border-radius: 0%;
+text-align: left;
+}
+
+#news-grid{
+width: 70%;
+margin-bottom: 100px;
+}
+
+#news-grid .column{
+width: 33.3%;
+margin-bottom: 50px;
+padding: 0 4px;
+}
+
+#news-grid .column a{
+color: black;
+text-decoration: none;
+}
+
+#news-grid .column:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 0.5s;
+}
+
+.card h4{
+margin: 15px auto;
+}
+/*NEWS-GRID*/
+
+
+/*STANDINGS-TABLE*/
+#standing-header{
+text-align: center;
+width: 63%;
+margin-top: 70px;
+margin-bottom: 0px;
+}
+
+#standing-header h2{
+padding: 20px;
+color: black;
+font-family: 'Oswald', sans-serif;
+}
+
+#tablekey{
+width: 45%;
+text-align: left;
+margin-bottom: 50px;
+}
+
+#efl-table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 60%;
+align-content: center;
+margin: 50px auto;
+}
+
+#efl-table th{
+text-align: center;
+padding: 15px;
+}
+
+#efl-table td{
+text-align: center;
+padding: 2px;
+}
+
+#efl-table td:nth-child(3){
+text-align: left;
+}
+
+#efl-table img{
+width:50px;
+text-align: right;
+padding: 10px;
+}
+
+#efl-table tr:nth-child(even){
+background-color:lightgrey;
+}
+/*STANDINGS-TABLE*/
+
+
+/*DROPDOWN*/
+#fix-res-headings{
+width: 40%;
+margin: 60px auto;
+}
+
+#fix-res-headings #matchday-title{
+text-align: center;
+font-size: 22px;
+}
+
+#fix-res-headings .dropdown{
+text-align: center;
+}
+
+#matchday-title{
+line-height: 50px;
+width: 100%;
+}
+
+.dropbtn{
+display: inline-block;
+padding: 6px 30px;
+margin-bottom: 0;
+font-size: 15px;
+font-weight: 600;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid black;
+background-color: white;
+border-radius: 5%;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+min-width: 180px;
+height: 240px;
+overflow: auto;
+z-index: 1;
+font-weight: 700;
+background-color: white;
+}
+
+.dropdown-content a{
+color: black;
+padding: 12px 20px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover{
+background-color: #181F49;
+color: white;
+}
+
+.show{
+display: block;
+}
+
+.fa-angle-down{
+font-weight: 800;
+font-size: 20px;
+padding: 6px;
+}
+/*DROPDOWN*/
+
+
+/*FIXTURES-GRID*/
+#fixture-date{
+text-align: center;
+width: 100%;
+margin-top: 35px;
+}
+
+#fixture-date #date{
+text-align: center;
+margin: 20px auto;
+font-weight: 700;
+}
+
+#fixtures-table-grid{
+width: 100%;
+}
+
+.table-hover{
+text-align: center;
+width: 100%;
+border-color: 3px solid black;
+}
+
+tr[data-href]{
+cursor: pointer;
+}
+
+.table-hover #logo img{
+width: 30px;
+height: 30px;
+}
+
+.table-hover #team-name-home{
+text-align: right;
+line-height: 50px;
+padding: 5px;
+}
+
+.table-hover #team-name-away{
+text-align: left;
+line-height: 50px;
+padding: 5px;
+}
+
+.table-hover #team-name-away2{
+text-align: left;
+line-height: 50px;
+padding: 5px;
+}
+
+.table-hover #logo{
+padding: 2px auto;
+width: 20px;
+line-height: 34px;
+}
+
+.table-hover #score{
+font-size: 20px;
+font-weight: 600;
+line-height: 60px;
+padding: 0px;
+}
+
+.border-line-fixtures{
+border: 1px solid black; 
+margin: 20px auto;
+margin-bottom: 40px;
+width: 70%;
+}
+
+#pagination-fixtures{
+text-decoration: none;
+display: inline-block;
+padding: 8px 16px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+#pagination-fixtures-row{
+text-align: center;
+margin: 50px auto;
+width: 20%;
+}
+
+#pagination-fixtures a:hover{
+text-decoration: none;
+}
+
+#pagination-fixtures .next{
+background-color: #181F49;
+color: white;
+margin: 5px auto;
+padding: 8px;
+}
+
+#pagination-fixtures .previous{
+background-color: #181F49;
+color: white;
+margin: 5px auto;
+padding: 8px;
+}
+/*FIXTURES-GRID*/
+
+
+/*OVERVIEW-RESULTSPAGE*/
+#overview-header{
+width: 60%;
+margin: 40px auto;
+text-align: center;
+background-color: #181F49;
+color: white;
+}
+
+#overview-score p{
+line-height: 100px;
+font-size: 20px;
+color: black;
+background-color: white;
+padding: 0px;
+margin: 0px;
+}
+
+#overview-logo2{
+text-align: left;
+}
+
+#overview-logo1{
+text-align: right;
+}
+
+.overview-stadium p{
+padding: 10px;
+}
+
+#overview-header .col-sm-2{
+margin: 5px auto;
+}
+
+#overview-header .col-sm-3 img{
+margin: 5px auto;
+}
+
+#overview-header .col-sm-2 p{
+line-height: 100px;
+font-weight: 600;
+font-size: 20px;
+}
+
+#overview-scorers{
+margin-bottom: 100px;
+width: 50%;
+}
+
+#overview-home{
+text-align:left;
+}
+
+#overview-away{
+text-align:right;
+}
+
+#overview-lineup-header{
+width: 10%;
+margin-top: 80px;
+margin:40px auto;
+text-align: center;
+background-color: #181F49;
+color: white;
+}
+	
+#overview-lineup-header h4{
+padding: 6px 5px;
+font-weight: 600;
+}
+
+
+/*LINEUPS*/
+.tab{
+overflow: hidden;
+border: 3px solid #181F49;
+background-color: #181F49;
+width: 100%;
+}
+
+.tab button{
+background-color: inherit;
+float: center;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 6px 249px;
+transition: 0.3s;
+font-size: 17px;
+font-weight: 600;
+color: white;
+}
+
+.tab button:hover{
+background-color: white;
+color: #181F49;
+}
+
+.tab button.active{
+background-color: white;
+color: #181F49;
+}
+
+.lineupcontent{
+display: none;
+padding: 6px 150px;
+border-top: none;
+text-align:center;
+margin-top:50px;
+}
+
+#home_lineup li{
+font-size: 16px;
+padding: 8px;
+list-style-type: none;
+text-align:left; 
+}
+
+#home_subs li{
+font-size: 16px;
+padding: 8px;
+list-style-type: none;
+}
+
+#home_lineup{
+width: 100%;
+}
+	
+#home_lineup p{
+margin-top: 40px;
+margin-bottom: -20px;
+font-weight: 700;
+text-decoration: underline;
+text-align: left;
+}
+
+#home_subs p{
+margin-top: 40px;
+margin-bottom: -20px;
+font-weight: 700;
+text-decoration: underline;
+}
+/*LINEUPS*/
+
+#overview-stats-header{
+width: 10%;
+margin-top: 180px;
+margin:40px auto;
+text-align: center;
+background-color: #181F49;
+color: white;
+}
+	
+#overview-stats-header h4{
+padding: 6px 5px;
+font-weight: 600;
+}
+
+#overview-stats{
+text-align: center;
+font-size: 16px;
+}
+
+.fa-square{
+color: yellow;
+margin: 5px;
+}
+
+.fa-caret-right{
+color: red;
+margin: 5px;
+font-weight: 700;
+}
+
+.fa-caret-left{
+color: green;
+margin: 5px;
+font-weight: 700;
+}
+
+.border-line-results{
+border: 1px solid black; 
+margin: 20px auto;
+margin-top: 60px;
+margin-bottom: 40px;
+width: 70%;
+}
+/*OVERVIEW-RESULTSPAGE*/
+
+
+
+
+/*CLUBSPAGE*/
+#clubs-header h3{
+text-align: center;
+margin: 50px auto;
+margin-top: 70px;
+color: black;
+font-family: 'Oswald', sans-serif;
+}
+
+#clubs-grid{
+width: 100%;
+margin: 10px auto;
+margin-bottom: 1200px;
+}
+
+#clubs-grid .col-3{
+text-align: center;
+margin: 5px;
+}
+
+div.gallery{
+border: 1px solid #ccc;
+margin-bottom: 20px;
+padding: 15px;
+}
+
+div.gallery:hover{
+border: 1px solid #777;
+cursor: pointer;
+}
+
+div.gallery img{
+width: 100%;
+height: auto;
+}
+
+div.desc{
+padding: 15px;
+text-align: center;
+}
+
+.team-grid{
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+text-align: center;
+}
+
+.team-grid .gallery img{
+width: 50%;
+}
+
+.clearfix:after{
+content: "";
+display: table;
+clear: both;
+}
+/*CLUBSPAGE*/
+
+
+
+
+/*LAPTOP DEVICES*/ /*LAPTOP DEVICES*/ /*LAPTOP DEVICES*/ /*LAPTOP DEVICES*/ 
+
+@media screen and (max-width:1440px){
+body{
+width: 100%;
+}
+ 
+/*HOMEPAGE*/
+.nav-links li{
+opacity: 100%;
+}
+
+.nav-links a{
+color: white;
+margin: 105px;
+}	
+	
+.carousel-inner img{
+width: 100%;
+height: auto;
+}
+	
+#caption h3{
+position:absolute; top:50px; left:50px;
+font-family: 'Oswald', sans-serif;
+width: 100%;
+margin: 0px auto;
+text-align: left;
+}
+
+#caption p{
+text-align: left;
+position: absolute; top: 100px; left: 50px;
+width: 100%;
+margin: 0px auto;
+font-size: 18px;
+font-weight:600;
+}	
+	
+	
+/*NEWS-GRID*/
+.card{
+box-shadow: 0 0px 2px 0;
+border-radius: 0%;
+text-align: left;
+}
+
+#news-grid{
+width: 80%;
+margin-bottom: 100px;
+}
+
+#news-grid .column{
+width: 33.3%;
+margin-bottom: 50px;
+padding: 0 4px;
+}
+
+#news-grid .column a{
+color: black;
+text-decoration: none;
+}
+
+#news-grid .column:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 0.5s;
+}
+
+.card h4{
+margin: 15px auto;
+}
+/*NEWS-GRID*/
+/*HOMEPAGE*/
+	
+	
+/*FIXTURES&RESULTSPAGE*/
+#fix-res-headings{
+width: 70%;
+}
+/*FIXTURES&RESULTSPAGE*/
+	
+	
+/*MATCHDAYRESULTSPAGE*/
+#overview-stats-header{
+width: 20%;
+}
+	
+#overview-header{
+width: 80%;
+}
+	
+#overview-lineup-header{
+width: 20%;
+}
+/*MATCHDAYRESULTSPAGE*/
+	
+
+/*FOOTER*/	
+#bkt img{
+width: 60px;
+height: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+#betclic img{
+width: 100px;
+height: auto;
+margin: 15px auto;
+}
+
+#beinsports img{
+width: 80px;
+height: auto;
+margin: 15px auto;
+}
+
+#fiat img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+
+#laposte img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+
+#uhlsport img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+/*FOOTER*/
+}
+
+
+
+
+@media screen and (max-width:1280px){
+body{
+width: 100%;
+}
+
+/*HOMEPAGE*/
+.nav-links li{
+opacity: 100%;
+}
+
+.nav-links a{
+color: white;
+margin: 105px;
+}	
+	
+#home-carousel{
+margin: 30px auto;
+width: 80%;
+}
+
+.carousel-inner img{
+width: 100%;
+height: auto;
+}
+	
+#caption h3{
+position:absolute; top:40px; left:50px;
+font-family: 'Oswald', sans-serif;
+width: 100%;
+margin: 0px auto;
+text-align: left;
+}
+
+#caption p{
+text-align: left;
+position: absolute; top: 90px; left: 50px;
+width: 100%;
+margin: 0px auto;
+font-size: 16px;
+font-weight:600;
+}	
+	
+	
+/*NEWS-GRID*/
+.card{
+box-shadow: 0 0px 2px 0;
+border-radius: 0%;
+text-align: left;
+}
+
+#news-grid{
+width: 80%;
+margin-bottom: 100px;
+}
+
+#news-grid .column{
+width: 33.3%;
+margin-bottom: 30px;
+padding: 0 6px;
+}
+
+#news-grid .column a{
+color: black;
+text-decoration: none;
+}
+
+#news-grid .column:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 0.5s;
+}
+
+.card h4{
+margin: 15px auto;
+}
+/*NEWS-GRID*/
+/*HOMEPAGE*/
+	
+
+/*FIXTURES&RESULTSPAGE*/
+#fix-res-headings{
+width: 70%;
+}
+	
+#pagination-fixtures-row{
+width: 30%;
+}
+/*FIXTURES&RESULTSPAGE*/
+	
+	
+/*MATCHDAYRESULTSPAGE*/
+#overview-header{
+width: 80%;
+}
+	
+#overview-lineup-header{
+width: 20%;
+}
+/*MATCHDAYRESULTSPAGE*/
+	
+	
+/*FOOTER*/	
+#bkt img{
+width: 60px;
+height: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+#betclic img{
+width: 100px;
+height: auto;
+margin: 15px auto;
+}
+
+#beinsports img{
+width: 80px;
+height: auto;
+margin: 15px auto;
+}
+
+#fiat img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+
+#laposte img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+
+#uhlsport img{
+width: 100%;
+height: auto;
+margin: 0px auto;
+}
+/*FOOTER*/
+}
+
+
+
+
+@media screen and (max-width:1024px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+ 
+/*HOMEPAGE*/
+.nav-links li{
+opacity: 100%;
+}
+
+.nav-links a{
+color: white;
+margin: 64px;
+}
+
+#home-carousel{
+margin: 30px auto;
+width: 80%;
+}
+
+.carousel-inner img{
+width: 100%;
+height: auto;
+}
+	
+#caption h3{
+position:absolute; top:30px; left:50px;
+font-family: 'Oswald', sans-serif;
+width: 100%;
+margin: 0px auto;
+text-align: left;
+}
+
+#caption p{
+text-align: left;
+position: absolute; top: 80px; left: 50px;
+width: 100%;
+margin: 0px auto;
+font-size: 12px;
+font-weight:600;
+}	
+	
+	
+/*NEWS-GRID*/
+.card{
+box-shadow: 0 0px 2px 0;
+border-radius: 0%;
+text-align: left;
+}
+
+#news-grid{
+width: 80%;
+margin-bottom: 100px;
+}
+
+#news-grid .column{
+width: 33.3%;
+margin-bottom: 30px;
+padding: 0 6px;
+}
+
+#news-grid .column a{
+color: black;
+text-decoration: none;
+}
+
+#news-grid .column:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 0.5s;
+}
+
+.card h4{
+margin: 15px auto;
+}
+/*NEWS-GRID*/
+/*HOMEPAGE*/
+	
+	
+/*STANDINGSPAGE*/
+#tablekey{
+width: 60%;
+text-align: left;
+margin-bottom: 50px;
+}
+
+#efl-table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 80%;
+align-content: center;
+margin: 50px auto;
+}
+/*STANDINGSPAGE*/
+	
+	
+/*MATCHDAYRESULTSPAGE*/
+.tab button{
+padding: 6px 200px;
+}
+/*MATCHDAYRESULTSPAGE*/
+	
+	
+/*FOOTER*/	
+#bkt img{
+width: 150%;
+height: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+#betclic img{
+width: 100px;
+height: auto;
+margin: 15px auto;
+}
+
+#beinsports img{
+width: 80px;
+height: auto;
+margin: 15px auto;
+}
+
+#fiat img{
+width: 50px;
+height: auto;
+margin: 0px auto;
+}
+
+#laposte img{
+width: 50px;
+height: auto;
+margin: 0px auto;
+}
+
+#uhlsport img{
+width: 50px;
+height: auto;
+margin: 0px auto;
+}
+/*FOOTER*/
+}
+ 
