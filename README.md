@@ -1,10 +1,10 @@
 # Ligue2API
 ## Table of Contents
-*[General info](#general-info)
-*[Technologies](#technologies)
-*[Setup](#setup)
-*[Status](#status)
-*[Inspiration](#inspiration)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
+* [Inspiration](#inspiration)
 
 ## General info
 ### What is the project about and why was it made?
