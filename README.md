@@ -5,6 +5,7 @@
 *[Setup](#setup)
 
 ## General info
+### Skills 
 This project is simple lorem ipsum old generator
 
 ## Technologies
