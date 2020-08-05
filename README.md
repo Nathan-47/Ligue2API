@@ -7,7 +7,6 @@
 * [Inspiration](#inspiration)
 
 
-
 ## General info
 ### What is the project about and why was it made?
 This project is simple lorem ipsum old generator
@@ -29,6 +28,8 @@ This project is simple lorem ipsum old generator
 ### What skills have I showcased in this project?
 This project is simple lorem ipsum old generator
 
+<br />
+
 ## Setup
 To run the project
 
@@ -40,9 +41,13 @@ This project is simple lorem ipsum old generator
 ### Instructions when on site?
 This project is simple lorem ipsum old generator
 
+<br />
+
 ## Status
 ### Is the project finished, does it need time to finish, what is the current progress?
 This project is simple lorem ipsum old generator
+
+<br />
 
 ## Inspiration
 ### What inspired you to create a certain design or structure of the site?
