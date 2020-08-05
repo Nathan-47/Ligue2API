@@ -15,7 +15,7 @@ This project is simple lorem ipsum old generator
 ### What did I learn making this project?
 This project is simple lorem ipsum old generator
 
-
+<br />
 
 ## Technologies
 Project created with:
