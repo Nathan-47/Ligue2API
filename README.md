@@ -57,6 +57,7 @@ Below is a guide that shows how to open the project.
 ## Status
 ### Is the project finished, does it need time to finish, what is the current progress?
 The project is finished but may be amended in the future.
+* Currently looking to make the images within the project pages bigger when user clicks onto them for a better view.
 
 <br />
 
