@@ -19,5 +19,6 @@ A project that was built to showcase the use of API on a website. The site focus
  4. Open index.html and project will boot up. View in browser at `https://localhost:8080`
  
 <br />
+
 ### FIXTURE / RESULTS PAGE NOTE
 When on the fixture and results page there is only 1 working fixture that opens up. The working fixture is Le Mans v Lens as the other matches don’t have a link and if clicked on will lead to an error page.
